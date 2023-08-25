@@ -4,6 +4,10 @@
     border: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -26,7 +30,7 @@
     border: 1.5px solid white;
 }
 
-.logo{
+.logo1{
     background-image: url("images/amazon_logo.png");
     background-size: cover;
     height: 50px;
@@ -165,6 +169,7 @@ span{
 
 .hero-msg a{
     color: #007185;
+    text-decoration: none;
 }
 
 /* shop section */ 
@@ -221,8 +226,9 @@ span{
     margin-right: 1rem;
 }
 
-.box-content p{
+.box-content p a{
     color: #007185;
+    text-decoration: none;
 }
 
 /* footer */
@@ -230,7 +236,7 @@ footer{
     margin-top: 15px;
 }
 
-.foot-panel1{
+.foot-panel1 a{
     background-color: #37475a;
     color: white;
     height: 50px;
@@ -238,7 +244,9 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 0.7rem;
+    text-decoration: none;
 }
+
 
 .foot-panel2{
     background-color: #222f3d;
@@ -270,8 +278,8 @@ ul a {
     align-items: center;
 }
 
-.logo{
-    background-image: url("images/amazon_logo.png");
+.logo img{
+    /* background-image: url("images/amazon_logo.png"); */
     background-size: cover;
     height: 50px;
     width: 100px;
